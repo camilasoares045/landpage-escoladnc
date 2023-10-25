@@ -25,15 +25,14 @@
     padding-bottom: 100px;
 }
 
-#menuinformacao{
+#menuinformacao {
     background-color: #eaece5;
     display: grid;
-    grid-auto-flow: column;
-    columns: auto;
+    grid-template-columns: auto auto auto; /* Defina o número de colunas desejado */
 }
 
 .icone{
-    margin: 50px 0px 100px 50px;
+    margin: 100px 0px 100px 50px;
     padding: 25px;
 }
 
@@ -44,7 +43,6 @@
 }
 
 #secaovideo{
-    font-family: "inter";
     display: grid;
     grid-auto-flow: column;
 }
@@ -61,3 +59,43 @@
 #video{
     margin: 50px 25px 50px 100px;
 }
+
+#carrossel{
+    background-color: #247ba0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 35%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translate(-7px);
+    transition-duration: 0,75s;
+}
+
