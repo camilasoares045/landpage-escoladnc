@@ -101,12 +101,13 @@
 
 #formulario{
     text-align: center;
+    padding: 50px;
 }
 
 #titulo-formulario{
     color: #383838;
     font-size: 25px;
-    margin: 25px;
+    padding: 50px;
 }
 
 input{
